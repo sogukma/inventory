@@ -1,5 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgres://ec2-54-247-119-167.eu-west-1.compute.amazonaws.com:5432/d6g2lukgcomcf3
-    username: npmdozeedyckup
-    password: 8f82a3b637a51006a2bd66c31b87a6f66bc3a769c5c1c805b15d46e28a37e57c
