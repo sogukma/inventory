@@ -27,8 +27,8 @@ public class InventoryEndpoint {
     private InventoryService inventoryService;
 
 
-    @PostMapping(path = "/shipping", consumes = "application/json", produces = "application/json")
-    public ResponseEntity<OrderMessage> requestShipping(@RequestBody OrderMessage orderMessage) {
+    @PostMapping(path = "/inventory", consumes = "application/json", produces = "application/json")
+    public ResponseEntity<OrderMessage> requestInventory(@RequestBody OrderMessage orderMessage) {
         PickingList pickingList = null;
         String packingSlipId = UUID.randomUUID().toString();
 
