@@ -1,0 +1,24 @@
+server:
+  port: 8087
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /console
+      settings:
+        web-allow-others: true
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+   
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://ec2-54-247-119-167.eu-west-1.compute.amazonaws.com:5432/ddj0eaokfv76fu
+    username: svultcwpzswkiq
+    password: 0bb99d1c62cf0d9b11e6e533d82ab968890660bcf583412eccdd6e37b6272aec
+    driverClassName: org.postgresql.Driver
+    
+    
+    
