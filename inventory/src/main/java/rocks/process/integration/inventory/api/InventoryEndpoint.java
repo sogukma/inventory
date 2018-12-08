@@ -32,7 +32,7 @@ public class InventoryEndpoint {
         PickingList pickingList = null;
         String packingSlipId = UUID.randomUUID().toString();
 
-        
+        //wenn auf Lager vorhanden, kommissioniere sonst setze auftrag in queue
         try {
             String status = "";
         	if(Integer.parseInt(orderMessage.getStockAmount()) < 0)
